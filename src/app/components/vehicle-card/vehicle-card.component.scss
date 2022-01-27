@@ -1,0 +1,21 @@
+nz-card {
+  box-shadow: rgb(150 150 150 / 16%) 0px 3px 8px;
+  border: none;
+}
+
+nz-card ::ng-deep .ant-card-head-title {
+  padding: 8px 0;
+  font-size: 20px;
+  overflow: unset;
+  white-space: pre-wrap;
+}
+
+nz-card ::ng-deep .ant-card-body {
+  padding: 0;
+}
+
+.vehicle-img {
+  object-fit: cover;
+  height: 270px;
+  cursor: pointer;
+}
